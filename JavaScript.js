@@ -1,0 +1,1 @@
+document.getElementById('davaToday').valueAsDate = new Date();

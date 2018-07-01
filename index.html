@@ -3,25 +3,23 @@
     <meta charset="utf-8">
     <title>This is my world</title>
     <link rel="stylesheet" href="main.css">
-    </head>
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn:400i&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <script type="javascript" src="JavaScript.js"></script>
+</head>
     <body>
-        <div id="leftp">
-        </div>
-        <div id="rightp">
-            </div>
-            </body>
-        <div>
-        <div class="grid">
-        <div>
+        <div id="flexbox">
+        <div class="site">
         <p>Vova.com</p>
+        <img src="img/dolar.jpg" alt="Заображення долара" class="avatars">
         </div>
-        <div>
+        <div class="inputpflex">
         <form>
-            <input type="email" name="email" placeholder="vasiapupkin@gmail.com" class="input"> 
+            <input type="email" name="email" placeholder="vasiapupkin@gmail.com" class="input"></br> 
             <input type="password" name="password" placeholder="password***" class="input">
         </form>
         </div>
-        <div>
+        <div class="inputbflex">
             <form> 
             <input type="submit" value="Вхід" class="btnz"> </br>
             <button class="btnz">Зареєструватись</button>
@@ -31,9 +29,12 @@
 </div>
     <div id="page">
         <div>
-    <h1>Курс обміну валют</h1>
+    <h1 class="title">Курс обміну валют</h1>
       </div>
     <div>
+        <div>
+                <input type="date" id="davaToday">
+        </div>
     <table class="tab">
         <tr>
             <td>Валюта</td>
@@ -60,6 +61,7 @@
             <td></td>
         </tr>
 </table>
+</div>
 </div>
 </div>
 </html>
