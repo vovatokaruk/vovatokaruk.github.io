@@ -9,7 +9,7 @@ currency.addEventListener("change", function() {
     
     for (var i = nStartDate; i <= nEndDate; i++) {
         var URI = `https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?valcode=${currency.value}&date=${i}&json`
-        XHR.open("GET", URI, false);
+        XHR.open("GET", URI, true);
         XHR.send();
         XHR.addEventListener("readystatechange", function() {
             if ((XHR.readyState === 4) && (XHR.status === 200)) {
