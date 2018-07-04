@@ -88,4 +88,10 @@ body {
    background-repeat: no-repeat;    
    background-size: cover;
 }
-
+.sdate {
+    margin-right: 40px;
+}
+#graph {
+    height: 300px;
+    width: 400px;
+}
